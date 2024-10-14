@@ -1,6 +1,6 @@
 import React from "react";
 import bg from "../../assets/bg.png";
-import styles from "./FirstPage.module.css";
+import styles from "./firstPage.module.css";
 
 const FirstPage = () => {
   return (
