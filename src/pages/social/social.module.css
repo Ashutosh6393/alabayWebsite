@@ -1,0 +1,68 @@
+.container{
+    padding-inline: 4rem;
+}
+
+.heading h1 {
+  font-family: "cheeseburga";
+  font-weight: 400;
+  font-size: 9rem;
+  color: #ffa800;
+  text-align: left;
+  line-height: 110%;
+}
+
+
+.content{
+    display: flex;
+    position: relative;
+    top: -5rem;
+
+}
+
+.links{
+    width: 50%;
+    background-image: url(../../assets/Union.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 7rem;
+    padding-top: 10rem;
+    gap: 2rem;
+}
+
+.links p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: white;
+    display: flex
+
+}
+
+.links p span{
+    background-color: #353535;
+    width: 3rem;
+    height: 3rem;
+    padding: .7rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.links a{
+    padding-left: 1rem;
+}
+
+.imageContainer{
+    width: 50%;
+}
+
+.imageContainer img{
+    -webkit-box-reflect: below -14% linear-gradient(transparent 80% , rgba(0, 0, 0, 0.277));
+}

@@ -1,0 +1,147 @@
+.history {
+  background: rgb(255, 242, 128);
+  background: radial-gradient(
+    circle,
+    rgba(255, 242, 128, 1) 0%,
+    rgba(255, 199, 0, 1) 50%
+  );
+}
+
+.history hr {
+  width: 150px;
+  border: 7px solid #fff6a1;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 1rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX();
+  -moz-transform: translateX();
+  -ms-transform: translateX();
+  -o-transform: translateX();
+}
+
+
+.textArea {
+  width: 50%;
+  padding: 4rem;
+}
+
+.textArea h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+  color: #f76902d1;
+}
+
+.textArea h1 {
+  font-family: "cheeseburga";
+  color: white;
+  font-size: 10rem;
+  line-height: 100%;
+  margin-block: 1rem;
+}
+
+.textArea p {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 2rem;
+  line-height: 100%;
+  font-weight: 700;
+  color: #353535;
+  padding-left: 1rem;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.imageContainer img {
+  z-index: 30;
+  position: absolute;
+  top: 10rem;
+  left: 8rem;
+  width: 90%;
+  -webkit-box-reflect: below -27% linear-gradient(transparent 70% , rgba(0, 0, 0, 0.277));
+  filter: drop-shadow(0 4rem 4rem rgba(44, 44, 44, 0.329));
+  -webkit-filter: drop-shadow(0 4rem 4rem rgba(44, 44, 44, 0.329));
+}
+
+.customShapeDividerBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.customShapeDividerBottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 181px;
+}
+
+.customShapeDividerBottom .shapeFill {
+  fill: #ffffff;
+}
+
+.imageSliderContainer{
+  padding-inline: 4rem;
+  width: 100%;
+  height: 60vh;
+}
+
+.slider{
+  padding-inline: 5rem
+
+}
+
+.card {
+  height: 14rem;
+  padding-left: 1rem;
+  overflow: hidden;
+  position: relative
+  
+}
+
+.card:focus{
+  outline: none;  
+}
+
+.card img{
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+
+.sliderLinks{
+  display: flex;
+  justify-content: center;
+  gap: 1.4rem;
+  padding-block: 2rem
+}
+
+.sliderLinks button{
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #353535;
+  font-size: 1.2rem;
+}
+
+.sliderLinks button:focus{
+  color: #FFA800;
+  outline: none;
+}

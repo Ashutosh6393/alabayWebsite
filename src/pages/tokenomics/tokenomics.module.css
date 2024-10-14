@@ -1,0 +1,123 @@
+.container {
+  background: rgb(255, 242, 128);
+  background: radial-gradient(
+    circle,
+    rgba(255, 242, 128, 1) 0%,
+    rgba(255, 199, 0, 1) 50%
+  );
+  padding-inline: 4rem;
+  position: relative;
+  padding-bottom: 10rem;
+}
+
+.heading {
+  height: 45vh;
+  align-content: end;
+}
+
+.heading h1 {
+  font-family: "cheeseburga";
+  font-weight: 400;
+  font-size: 9rem;
+  text-align: left;
+  line-height: 100%;
+  color: white;
+}
+
+.content {
+  display: flex;
+  gap: 4rem;
+}
+.tiles {
+    padding-top: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+
+.tile {
+  background-color: #353535;
+  background-blend-mode: multiply;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 16.62px 20.12px 35.77px 0px #a87d29;
+  border-radius: 34px;
+  -webkit-border-radius: 34px;
+  -moz-border-radius: 34px;
+  -ms-border-radius: 34px;
+  -o-border-radius: 34px;
+  padding: 1rem 1.4rem;
+  width: 80%;
+}
+
+.tile h4 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 100%;
+  margin-bottom: 0.2rem;
+}
+
+.tile h3 {
+  color: #fff280;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 100%;
+}
+
+.customShapeDividerTop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.customShapeDividerTop svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.customShapeDividerTop .shapeFill {
+  fill: #ffffff;
+}
+
+.imageContainer{
+    width: 60%;
+    position: relative;
+}
+
+.imageContainer img{
+    -webkit-box-reflect: below -22% linear-gradient(transparent 70% , rgba(0, 0, 0, 0.285));
+    filter: drop-shadow(0 5rem 5rem rgba(44, 44, 44, 0.329));
+    -webkit-filter: drop-shadow(0 5rem 5rem rgba(44, 44, 44, 0.329));
+}
+
+
+
+.customShapeDividerBottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.customShapeDividerBottom svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 173px;
+}
+
+.customShapeDividerBottom .shapeFill {
+    fill: #FFFFFF;
+}
+

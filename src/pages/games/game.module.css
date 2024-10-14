@@ -1,0 +1,174 @@
+.container {
+  position: relative;
+}
+
+.headingContainer {
+  padding-inline: 4rem;
+  background: rgb(255, 242, 128);
+  background: radial-gradient(
+    circle,
+    rgba(255, 242, 128, 1) 0%,
+    rgba(255, 199, 0, 1) 50%
+  );
+
+  padding-top: 70vh;
+  height: 40vh;
+  padding-bottom: 55rem;
+  position: relative;
+}
+
+.heading h1 {
+  font-family: "cheeseburga";
+  font-weight: 400;
+  font-size: 9rem;
+  text-align: center;
+  line-height: 100%;
+  color: white;
+}
+
+.heading p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+  color: #353535;
+}
+
+.customShapeDividerTop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.customShapeDividerTop svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.customShapeDividerTop .shapeFill {
+  fill: #ffffff;
+}
+
+.customShapeDividerBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: 30;
+}
+
+.customShapeDividerBottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.customShapeDividerBottom .shapeFill {
+  fill: #ffffff;
+}
+
+.carausel1 {
+  margin-top: 10rem;
+  width: 100%;
+  position: relative;
+}
+
+.button1 {
+  background-color: #843afc;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: white;
+  position: absolute;
+  bottom: -35rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 70;
+  width: 10rem;
+  padding: .8rem 1rem;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+.slider1 {
+  width: 100%;
+  z-index: 50;
+  position: absolute;
+  top: 0rem;
+}
+
+.card1 {
+  height: 43rem;
+  width: 100%;
+}
+
+.card1:focus {
+  outline: none;
+}
+
+.sliderItem {
+  height: 100%;
+  width: 100%;
+}
+
+.sliderItem img {
+  height: 100%;
+  width: 100%;
+  /*object-fit: contain;
+  */
+  border: 5px solid white;
+  border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+}
+
+.previews {
+  padding-inline: 4rem;
+  padding-bottom: 10rem;
+
+  margin-top: 40vh;
+}
+
+.previews h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.previews h3 span:first-child {
+  color: #ffa800;
+}
+
+.previews h3 span:last-child {
+  color: #353535;
+}
+
+.cards {
+  margin-top: 2rem;
+  width: 85%;
+  /* padding-right: 20rem; */
+}
+
+.card img {
+  width: 90%;
+}
+
+.card:focus {
+  outline: none;
+  border: none;
+  color: #0000006c;
+}
