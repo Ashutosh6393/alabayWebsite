@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import styles from "./Merchandise.module.css";
+import styles from "./merchandise.module.css";
 import black1 from "../../assets/merchandise/black1.png";
 import black2 from "../../assets/merchandise/black2.png";
 import blue1 from "../../assets/merchandise/blue1.png";

@@ -17,7 +17,6 @@ function NextArrow(props) {
       className={`${className} ${styles.arrow}`}
       style={{
         ...style,
-        display: "block",
         background: "#353535",
         right: "2rem",
         height: "6rem",
